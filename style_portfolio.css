@@ -10,9 +10,37 @@ html{
     scroll-behavior: smooth;
     font-family:  'Poppins', 'Times New Roman', Times, serif ;
 }
-a{
-    text-decoration: none;
+/*configuração do header da página*/
+header{
+    background-color: black;
 }
+header .menu{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    max-width: 980px;
+    height: 55px;
+    margin: auto;
+    padding: 0px 20px;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li {
+    list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 24px;
+    transition: all 250ms linear 0s;
+}
+header nav ul li a:hover {
+    background: rgba(255,255,255,0.15);
+}
+/*configuração da sessão de projetos*/
 img{
     height: 100%;
     width: 100%;
@@ -213,7 +241,9 @@ p{
     background-image: linear-gradient(60deg, #29323c  0%, #485563 100%);
     opacity: 0.1;
 }
-
+a{
+    text-decoration: none;
+}
 /*media Query*/
 @media only screen and (min-width: 768px){
     #portfolio .project-item{
