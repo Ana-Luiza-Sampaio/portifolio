@@ -244,6 +244,36 @@ p{
 a{
     text-decoration: none;
 }
+/*configurações do footer*/
+footer{
+    background-color: black;    
+}
+footer .menu-footer{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    max-width: 980px;
+    height: 125px;
+    margin: auto;
+    padding: 0px 20px;
+}
+.menu-footer-section{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    max-width: 980px;
+    height: 55px;
+    margin: auto;
+    padding: 0px 20px;
+}
+.container-footer-menu{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding: 24px;
+    transition: all 250ms linear 0s;
+}
 /*media Query*/
 @media only screen and (min-width: 768px){
     #portfolio .project-item{
